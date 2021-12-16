@@ -11,7 +11,7 @@ int main()
     scanf("%d", &b);
     scanf ("%d",&c);
 
-    printf("povrsinaTrokuta = %d\n", (a*b/2));
+    printf("povrsinaTrokuta = %d\n", ((a*b)/2));
     return 0;
 
 }
