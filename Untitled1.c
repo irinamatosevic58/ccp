@@ -1,7 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void main()
+int main()
 {
-int stranicaA=10;
-printf("%d",stranicaA);
+    int x=4;
+    int y=10;
+
+    int a=x+y;
+    int b=x-y;
+    int c=x*y;
+    int d=x/y;
+    int e=x%y;
+
+    printf("Zbrajanje = %d\n",a);
+    printf("oduzimanje = %d\n",b);
+    printf("Mnozenje = %d\n",c);
+    printf("Dijeljenje = %d\n",d);
+    printf("Ostatak cijelobrojnog dijeljenja = %d",e);
+    return 0;
 }
+
