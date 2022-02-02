@@ -25,5 +25,5 @@ int main ();
         printf ("%d", ZavrsniRacun);
     }
 
-
+     return 0;
 }
