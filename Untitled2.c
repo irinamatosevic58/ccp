@@ -6,7 +6,6 @@ void main()
     int stranicaC;
     printf("unesi stranicu\n");
     scanf("%d %d %d", &stranicaA, &stranicaB, &stranicaC);
-    scanf("%d %d %d", &stranicaA, &stranicaB, &stranicaC);
     int mnozenje = stranicaA * stranicaB * stranicaC;
     printf ("%d", mnozenje);
 }
